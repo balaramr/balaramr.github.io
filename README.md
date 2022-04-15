@@ -1,5 +1,5 @@
 # DevOps-Portfolio 
-A personal project to create a portfolio website for a **DevOps Engineer**.
+A personal project to create a portfolio website for a **Cloud Engineer | DevOps Engineer**.
 
 [Click Here](https://balaramr.github.io/)
 
