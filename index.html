@@ -89,34 +89,62 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
+    <style>
+      .centered-container {
+        display: flex;
+        justify-content: center;
+        /* Centers the image horizontally */
+        align-items: center;
+        /* Centers the image vertically */
+        height: 100vh;
+        /* Adjust as necessary to fit your layout */
+        text-align: center;
+        /* Centers the text content, useful for inline elements */
+      }
+    
+      .centered-image {
+        max-width: 100%;
+        /* Ensures the image scales down appropriately */
+        height: auto;
+        /* Maintains the aspect ratio of the image */
+        display: block;
+        /* Ensures the image is treated as a block-level element */
+        margin: 0 auto;
+        /* Centers the image horizontally in its container */
+      }
+    </style>
 
-        <div class="section-title">
-          <h2>About</h2>
-        </div>
-        <class class="row">
-          <div class="col-lg-4">
-          <div style="width:370px; position:absolute; margin: 0px; auto;">
-            <br>
-          <img  src="assets/img/profile-img.jpg" style="width:95%;max-width:800px" class="img-fluid profile" alt="">
-          
-          </div> 
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Hybrid Cloud Infrastructure Architect | DevOps | Linux Admin</h3>
-            <p>• Over 19+ years of professional experience in Hybrid Cloud Infrastructure Architect, DevOps Engineer & Linux/Windows Administration.</p>
-            <p>• Leadership skills include ability to lead and motivate co-workers from all backgrounds, creative problem-solving and solution-oriented work style, decisive and confident decision-making, and in-depth proficiency with new technology trends.</p>
-            <p>• Skilled in information systems management, analysis, troubleshooting, testing, documentation, internal control procedures, system and program security, systems analysis, hardware and software installation, applications and program management, technical support, and network administration.</p>  
-            <p>• Excellent managerial, communication, interpersonal skills and analytical skills and strong ability to perform as part of a team. Very Strong learner with ability to manage multiple tasks in a pressured environment.</p>  
-            <p>• Enthusiastic self-starter, who can boost productivity, cut costs, foster efficiency and ensure profitability by finding the new innovative ways.</p>
-            </p>
-            </div>
-          </div>
-        </div>
+    <!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>About</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+
+        <img src="assets/img/profile-img.png" class="img-fluid profile centered-image" width="823" height="1182" alt="">
       </div>
-    </section><!-- End About Section -->
+      <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <h3>Hybrid Cloud Infrastructure Architect | DevOps | Linux Admin</h3>
+        <p>• Over 19+ years of professional experience in Hybrid Cloud Infrastructure Architect, DevOps Engineer &
+          Linux/Windows Administration.</p>
+        <p>• Leadership skills include ability to lead and motivate co-workers from all backgrounds, creative
+          problem-solving and solution-oriented work style, decisive and confident decision-making, and in-depth
+          proficiency with new technology trends.</p>
+        <p>• Skilled in information systems management, analysis, troubleshooting, testing, documentation, internal
+          control procedures, system and program security, systems analysis, hardware and software installation,
+          applications and program management, technical support, and network administration.</p>
+        <p>• Excellent managerial, communication, interpersonal skills and analytical skills and strong ability to
+          perform as part of a team. Very Strong learner with ability to manage multiple tasks in a pressured
+          environment.</p>
+        <p>• Enthusiastic self-starter, who can boost productivity, cut costs, foster efficiency and ensure
+          profitability by finding the new innovative ways.</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -291,19 +319,25 @@
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>PG Program in Cloud Computing </h4>
-              <p>Educated about AWS, GCP, Azure.
+              <p>Educated about Cloud Foundations, Cloud Computing on AWS, Managed Services on AWS, BigData Management & Analytics on Cloud,
+                Containers, Cloud Security & Migration, Microservices, Cloud Native DevOps, Microsoft Azure, Cloud Primer, On Premises
+                DevOps, Private Cloud, Google Cloud Platform, Enterprise Cloud Solutions, Cloud Certification Reference.
               <b><a role="button" class="card-text button-details" href="https://verify.mygreatlearning.com/verify/PWMDJHXY">Verify Grade</a></b></p>
             </div>
             <div class="resume-item">
               <h4>M.Sc in Information Technology <i>(discontinued covid)</i> </h4>
-              <p>SYSTEMS DESIGNER DATABASE ADMINISTRATOR IT CONSULTANT
-                JAVA DEVELOPER INFORMATION SECURITY ANALYST IT
-                APPLICATION PROGRAMMER NETWORK ADMINISTRATOR
-                WEB DEVELOPER | COMPUTER PROGRAMMER</p>
+              <p>• M.Sc. (IT) Program is designed to further strengthen knowledge and skills in the field of Information Technology to
+              enables to take on new roles and challenges in career.</p>
+              <p>• Acquire the managerial ability required to analyse, design, develop and maintain software development.
+            </p>
             </div>
             <div class="resume-item">
               <h4>Bachelor of Computer Application </h4>
-              <p>Educated about Computer Scinece, Data Structure, Administration, Database.</p>
+              <p>. BCA Program is designed to equips with the right set of skills and knowledge to kick-start a career in the field
+              of Information Technology.</p>
+              <p>. Educated about Computer Scinece, Data Structure, Administration, Database.</p>
+              <p>. Explains the analysis and synthesis involved in computer systems, information systems and computer applications.</p>
+
             </div>
             <div class="resume-item">
               <h4>Diploma in Programming & System Management </h4>
@@ -333,11 +367,16 @@
               
               <p><em><b>Arm, Bangalore, Karnataka, India (2015 - Present)</b></em></p>
               <ul>
-                <li>Deployment Management from Stage to Prod.</li>
-                <li>Supervise the flow deployment from Stage to Prod.</li>
-                <li>Dockerize Web Servers & Application Servers.</li>
-                <li>Automate the deployments using Ansible, Python Scripts.</li>
-                <li>Monitoring the Servers using various methods.</li>              
+              <li> Complete End2End Automation of HPC Cluster setup <b>(LSF Cluster, Tools Deployment, Storage, OpenText in AWS, GCP using Gitlab, Vault, Terraform Enterprise & Ansible)</b></li>
+              <li> Building Tools for ARM Architecture based on OpenSource and EDA tools.</li>
+              <li> Design, Develop and Implement Python/Unix/Linux utilities for various projects.</li>
+              <li> Ansible Automation project</li>
+              <li> LSF Monitor Administration</li>
+              <li> Nagios and Zabbix Administration as Secondary Support</li>
+              <li> Resolve & Escalate issues in a timely manner according to ITIL Procedures.</li>
+              <li> Leverage internal technical expertise, including peers, mentors, knowledge base, community forums and other internal
+                    tools, to provide the most effective solutions to customer issues.</li>
+       
               </ul>
             </div>
             <div class="resume-item">

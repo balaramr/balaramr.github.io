@@ -142,6 +142,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# profile image 
+--------------------------------------------------------------*/
+
+/* .centered-image {
+/*   display: block;
+/*   margin-left: auto;
+/*   margin-right: auto;
+/*   max-width: 100%; /* Ensure the image does not exceed the container width */
+/* }
+/* 
+/* .text-center {
+/*   text-align: center; /* Center-align text and other inline elements */
+/* }
+
+
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
