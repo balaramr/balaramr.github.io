@@ -3,7 +3,8 @@ A personal project to create a portfolio website for a **Hybrid Cloud Infrastruc
 
 [Click Here](https://balaramr.github.io/)
 
-
->credits: [***BootstrapMade***](https://bootstrapmade.com/)
+<!-- 
+credits: <a href="https://bootstrapmade.com/">BootstrapMade</a>
 ## Acknowledgments
 * Thanks to anyone whose code was used.
+-->
